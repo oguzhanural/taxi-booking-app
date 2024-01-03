@@ -11,7 +11,7 @@ app.use(bodyParser.json())
 
 app.set('view engine', 'pug')
 
-app.use('/passengers', passengersRouter)
+// app.use('/passengers', passengersRouter)
 // app.use('/drivers', driversRouter)
 // app.use('/bookings', bookingsRouter)
 app.use('/', indexRouter)
