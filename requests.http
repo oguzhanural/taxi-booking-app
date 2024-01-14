@@ -5,7 +5,10 @@ content-type: application/json
 
 ###
 
-GET http://localhost:3000/passengers/5ea70b28bbf7cb710503f2d4 HTTP/1.1
+GET http://localhost:3000/passengers/659e8d30d59d5ea78467840f HTTP/1.1
+
+###
+GET http://localhost:3000/passenger/659e8d30d59d5ea78467840f HTTP/1.1
 
 ###
 DELETE http://localhost:3000/passengers/5e9de11c0b0ac272d7866b1b HTTP/1.1
