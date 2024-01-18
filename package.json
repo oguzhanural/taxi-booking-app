@@ -9,7 +9,7 @@
   "scripts": {
     "start": "nodemon .bin/www",
     "test": "jest",
-    "test watch": "jest --watch"
+    "test watch": "jest --coverage --verbase --watch"
   },
   "author": "",
   "license": "ISC",
