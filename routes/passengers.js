@@ -1,13 +1,14 @@
 const { passengerService, bookingService } = require('../services')
 
+
 const router = require('express').Router()
 
 // buradaki route'ların görevi url'leri servislerinize bağlamak. bunlarda logic olması mantıklı değil.
 
 router.get('/', async (req, res) => {
-  const passengers = await passengerService.load()
-
-  res.render('passengers', { passengers })
+  const passengers = await passengerService.load();
+  res.send(passengers)
+  // res.render('passengers', { passengers })
 })
 
 router.post('/', async (req, res, next) => {

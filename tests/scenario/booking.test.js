@@ -2,7 +2,7 @@ const app = require('../..')
 const request = require('supertest')(app)
 
 test('creates a new booking', async (done) => {
-  // initialization
+  // initialization 
   const passengerToCreate = {
     name: 'Test passenger',
     location: 'Moda'
